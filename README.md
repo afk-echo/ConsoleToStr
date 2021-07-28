@@ -16,7 +16,7 @@ conv = ConsoleToStrConverter()
 1. `ConsoleToStrConverter.start()`:
 Starts the converter.
 ````python
-conv.start()  # This stops printing any outputs on the console window.
+conv.start()  # Stops printing any outputs on the console window.
 ````
 
 2. `ConsoleToStrConverter.curr()`:
@@ -29,5 +29,5 @@ conv.curr()
 Stops the converter, and all subsequent console outputs are printed on the console window.
 Returns a string containing all the outputs on the console window after calling the start() method.
 ````python
-conv.stop()
+conv.stop()  # All console outputs post call will be printed on the console.
 ````
