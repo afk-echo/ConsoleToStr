@@ -1,7 +1,7 @@
 # ConsoleToStr
 A light-weight module written in Python that converts the console outputs from a running Python program into a Python String.
 
-# Installation
+## Installation
 1. Grab the latest release of the module from the [releases](https://github.com/afk-echo/ConsoleToStr/releases) page.
 2. Place the `ConsoleToStr.py` in your working project directory.
 
@@ -31,3 +31,4 @@ Returns a string containing all the outputs on the console window after calling 
 ````python
 conv.stop()  # All console outputs post will be printed on the console after this call.
 ````
+* Object once called can be reused by using `conv.start()` even after it has been stopped.
