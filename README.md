@@ -1,2 +1,2 @@
 # ConsoleToStr
-A light module written in Python that converts the console outputs into a Python String.
+A light-weight module written in Python that converts the console outputs from a running Python program into a Python String.
