@@ -100,3 +100,7 @@ pop(self, index=-1, /)
     Raises IndexError if list is empty or index is out of range.
 '''
 ```
+
+## To-do
+* Add a mode for displaying the outputs on the console as well as record them into a string object simultaneously.
+* Add a method to return the raw StringIO object in which all the outputs are being stored.
