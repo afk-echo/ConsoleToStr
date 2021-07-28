@@ -32,3 +32,11 @@ Returns a string containing all the outputs on the console window after calling 
 conv.stop()  # All console outputs post will be printed on the console after this call.
 ````
 * Object once called can be reused by using `conv.start()` even after it has been stopped.
+
+## Examples
+
+1. A basic example - helps in understanding how the respective methods work.
+![example_1.py](./examples/example_1.py)
+
+2. Usage of the converter to extract the output from the help() method, which does not return a string as an output.
+![example_2.py](./examples/example_2.py)
