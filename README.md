@@ -36,7 +36,7 @@ conv.stop()  # All console outputs post will be printed on the console after thi
 ## Examples
 
 1. A basic example - helps in understanding how the respective methods work.
-![example_1.py](./examples/example_1.py)
+![example_1.py](examples/example_1.py)
 
 2. Usage of the converter to extract the output from the help() method, which does not return a string as an output.
-![example_2.py](./examples/example_2.py)
+![example_2.py](examples/example_2.py)
