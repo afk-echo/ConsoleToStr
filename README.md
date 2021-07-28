@@ -9,7 +9,7 @@ A light-weight module written in Python that converts the console outputs from a
 ````python
 from ConsoleToStr import ConsoleToStrConverter
 
-conv = ConsoleToStrConverter()
+conv = ConsoleToStrConverter()  # returns an instance of the ConsoleToStrConverter class that can be used in the current program.
 ````
 
 ## Methods
