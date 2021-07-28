@@ -36,6 +36,8 @@ Returns a string containing all the outputs on the console window after calling 
 conv.stop()  # All console outputs post will be printed on the console after this call.
 ````
 * Object once called can be reused by using `conv.start()` even after it has been stopped.
+* This module will work as intended only when launched by a **console** application (e.g. Command Prompt, PowerShell or Terminal). Once the start() method is called from a GUI-based application (e.g. the interactive Python Shell bundled with the IDLE), the program loses the ability to print to the console window, even after calling the stop() method. 
+(A limitation of `sys.__stdout__`)
 
 ## Examples
 
