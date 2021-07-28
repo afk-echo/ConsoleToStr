@@ -22,12 +22,12 @@ conv.start()  # Stops printing any outputs on the console window.
 2. `ConsoleToStrConverter.curr()`:
 Returns a string containing all the outputs on the console window after calling the start() method.
 ````python
-conv.curr()
+conv.curr()  # Does not affect the current state of the converter.
 ````
 
 3. `ConsoleToStrConverter.stop()`:
 Stops the converter, and all subsequent console outputs are printed on the console window.
 Returns a string containing all the outputs on the console window after calling the start() method.
 ````python
-conv.stop()  # All console outputs post call will be printed on the console.
+conv.stop()  # All console outputs post will be printed on the console after this call.
 ````
