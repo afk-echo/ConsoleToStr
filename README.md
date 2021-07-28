@@ -1,6 +1,10 @@
 # ConsoleToStr
 A light-weight module written in Python that converts the console outputs from a running Python program into a Python String.
 
+## Pre-requisites
+* A version of Python 3.x(module tested only on Python 3.8)
+* Familiarity with importing modules manually
+
 ## Installation
 1. Grab the latest release of the module from the [releases](https://github.com/afk-echo/ConsoleToStr/releases) page.
 2. Place the `ConsoleToStr.py` in your working project directory.
