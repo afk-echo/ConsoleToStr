@@ -4,7 +4,7 @@ import io
 class ConsoleToStrConverter:
 
     def __init__(self):
-        pass
+        self.__stdout__ = sys.stdout
 
     def start(self):
         '''
@@ -24,7 +24,7 @@ class ConsoleToStrConverter:
         Returns a <class 'str'> value which contains the data that was printed on the console.
         '''
         finalString = self.consoleText.getvalue()
-        sys.stdout = sys.__stdout__
+        sys.stdout = self.__stdout__
         self.consoleText.close()
         return finalString
 
